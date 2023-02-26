@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configure Solution", "Confi
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyoutaTools", "lib\HyoutaTools\HyoutaTools.csproj", "{395EDDD6-8A56-4409-8D9F-C983E74E82EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{09C23352-8261-447B-9BB5-4C82DAF3CFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09C23352-8261-447B-9BB5-4C82DAF3CFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09C23352-8261-447B-9BB5-4C82DAF3CFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395EDDD6-8A56-4409-8D9F-C983E74E82EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395EDDD6-8A56-4409-8D9F-C983E74E82EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395EDDD6-8A56-4409-8D9F-C983E74E82EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395EDDD6-8A56-4409-8D9F-C983E74E82EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{CD2CA20A-E6AD-4B1E-9D04-FB98970B61D5} = {B407F63E-453B-4A21-8A29-D662F50A5B82}
 		{CE629181-0090-46D0-81BC-16682E497573} = {B407F63E-453B-4A21-8A29-D662F50A5B82}
 		{09C23352-8261-447B-9BB5-4C82DAF3CFFD} = {B407F63E-453B-4A21-8A29-D662F50A5B82}
+		{395EDDD6-8A56-4409-8D9F-C983E74E82EF} = {B407F63E-453B-4A21-8A29-D662F50A5B82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B17AB52A-AB00-4067-B684-72DFCA802F89}

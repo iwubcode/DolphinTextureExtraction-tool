@@ -48,7 +48,7 @@ List of all [commands](https://github.com/Venomalia/DolphinTextureExtraction-too
 ### Compressing
 - YAZ, YAY, CLZ, PRS, GZIP, LZ11, LZ77, LZS, LZSS, ZLib, CRILAYLA
 ### Textures
-- ATB, BTI, TPL, TPL_0, NUTC, REFT, TEX_KS, TEX_RFS, TEX, TEX1, TEX0, TXE, TXTR, PTLG, HXTB, WTMD, GCT0, GBIX, GCIX, GVRT, FIPAFTEX.
+- ATB, BTI, TPL, TPL_0, NUTC, REFT, TEX_KS, TEX_RFS, TEX, TEX1, TEX0, TXE, TXTR, PTLG, HXTB, WTMD, GCT0, GBIX, GCIX, GVRT, FIPAFTEX, TXM, TXV, DDS.
 ### Model archives
 - MOD, BMD3, BDL4, MDL_LM, HSF
 
@@ -85,3 +85,5 @@ List of all [commands](https://github.com/Venomalia/DolphinTextureExtraction-too
 - [Puyo Tools](https://github.com/nickworonekin/puyotools) Code reference for ONE GVMH, GBIX, GCIX, GVRT Format and to read PRS Compressing.
 	
 - [BrawlCrate](https://github.com/soopercool101/BrawlCrate) reference for ARC0 Format.
+
+- [HyoutaTools](https://github.com/AdmiralCurtiss/HyoutaTools) to read DDS, TXM, TXV formats,

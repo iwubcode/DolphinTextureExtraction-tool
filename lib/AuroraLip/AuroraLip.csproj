@@ -58,6 +58,7 @@
     <Compile Include="Archives\Formats\CPK.cs" />
     <Compile Include="Archives\Formats\FBC.cs" />
     <Compile Include="Archives\Formats\FBTI.cs" />
+    <Compile Include="Archives\Formats\FPS4.cs" />
     <Compile Include="Archives\Formats\GVMH.cs" />
     <Compile Include="Archives\Formats\GCDisk.cs" />
     <Compile Include="Archives\Formats\MOD.cs" />
@@ -155,6 +156,7 @@
     <Compile Include="Texture\Formats\PTLG.cs" />
     <Compile Include="Texture\Formats\TEX_KS.cs" />
     <Compile Include="Texture\Formats\TEX_RFS.cs" />
+    <Compile Include="Texture\Formats\TEX_TOG.cs" />
     <Compile Include="Texture\Formats\TPL_0.cs" />
     <Compile Include="Texture\Formats\TXTR.cs" />
     <Compile Include="Texture\Formats\NUTC.cs" />
@@ -192,6 +194,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HyoutaTools\HyoutaTools.csproj">
+      <Project>{395eddd6-8a56-4409-8d9f-c983e74e82ef}</Project>
+      <Name>HyoutaTools</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LibCPK\LibCPK.csproj">
       <Project>{ba3a00e4-4f51-4ab4-a8fb-f4b64a874449}</Project>
       <Name>LibCPK</Name>

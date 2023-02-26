@@ -237,6 +237,8 @@ namespace AuroraLip.Common
             new FormatInfo(".dkz", "DKZF", FormatType.Archive, "Donkey Konga"),
             new FormatInfo(".olk", "olnk".ToByte(),4, FormatType.Archive, "Archive", "Namco"), //https://forum.xentax.com/viewtopic.php?t=22500
             new FormatInfo(".nut", "NUTC", FormatType.Texture, "Namco Universal Texture", "Namco"),
+            new FormatInfo(".tex", FormatType.Texture, "Tales of Graces Texture"){ Class = typeof(TEX_TOG), IsMatch = TEX_TOG.Matcher },
+            new FormatInfo("", "FPS4", FormatType.Archive, "Tales of Graces Archive"),
 
             //SEGA
             new FormatInfo(".one", FormatType.Archive, "Sonic Storybook Series Archive", "SEGA") { Class = typeof(ONE_SB), IsMatch = ONE_SB.Matcher},
